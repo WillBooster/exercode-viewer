@@ -1,2 +1,2 @@
 # exercode-viewer
-A viewer for reviewing learner's submissions on Exercode.
+:100: A viewer for scoring learner's submissions on Exercode.
