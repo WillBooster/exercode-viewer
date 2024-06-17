@@ -11,6 +11,7 @@ jobs:
     uses: WillBoosterLab/reusable-workflows/.github/workflows/release.yml@main
     with:
       runs_on: '["macos-latest"]'
+      skip_build: true
     secrets:
       GH_TOKEN: ${{ secrets.PUBLIC_GH_BOT_PAT }}
       NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
