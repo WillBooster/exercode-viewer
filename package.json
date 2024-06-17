@@ -3,8 +3,8 @@
   "version": "0.0.0-semantically-released",
   "description": "A viewer for scoring learner's submissions on Exercode.",
   "license": "UNLICENSED",
-  "type": "module",
-  "main": "src/main.mjs",
+  "type": "commonjs",
+  "main": "src/main.cjs",
   "scripts": {
     "cleanup": "yarn format && yarn lint-fix",
     "format": "sort-package-json && yarn prettify",
