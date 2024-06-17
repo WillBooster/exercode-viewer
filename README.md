@@ -9,3 +9,11 @@
 
 - Node.js
 - Yarn
+
+## How to Setup
+
+1. `yarn install`
+
+## How to Start
+
+1. `yarn start`
