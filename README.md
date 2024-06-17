@@ -5,15 +5,17 @@
 
 :100: A viewer for scoring learner's submissions on Exercode.
 
-## Requirements
+## How to Run
 
-- Node.js
-- Yarn
+1. Install Node.js (https://nodejs.org/)
+2. `npm install`
+3. `npm run start`
 
-## How to Setup
+## How to Develop
 
-1. `yarn install`
+You must use `yarn` to develop the app instead of `npm`.
 
-## How to Start
-
-1. `yarn start`
+1. Install Node.js
+2. Install Yarn
+3. `yarn install`
+4. `yarn start`
