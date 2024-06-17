@@ -3,7 +3,6 @@
   "plugins": [
     ["@semantic-release/commit-analyzer", { "preset": "conventionalcommits" }],
     "@semantic-release/release-notes-generator",
-    "@semantic-release/npm",
     ["@semantic-release/exec", { "prepareCmd": "yarn electron-builder --mac --win" }],
     [
       "@semantic-release/github",
