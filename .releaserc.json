@@ -4,13 +4,15 @@
     ["@semantic-release/commit-analyzer", { "preset": "conventionalcommits" }],
     "@semantic-release/release-notes-generator",
     "@semantic-release/npm",
+    ["@semantic-release/exec", { "prepareCmd": "yarn electron-builder" }],
     [
       "@semantic-release/github",
       {
         "successComment": false,
         "labels": ["r: semantic-release"],
         "releasedLabels": ["released :bookmark:"],
-        "failComment": false
+        "failComment": false,
+        "assets": ["dist/*.dmg", "dist/*.exe"]
       }
     ]
   ]
