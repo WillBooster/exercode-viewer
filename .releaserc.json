@@ -11,7 +11,7 @@
         "labels": ["r: semantic-release"],
         "releasedLabels": ["released :bookmark:"],
         "failComment": false,
-        "assets": ["dist/*.dmg", "dist/*.exe"]
+        "assets": ["dist/*.dmg", "dist/*.exe", "dist/*.zip"]
       }
     ]
   ]

@@ -56,7 +56,7 @@
       "category": "public.app-category.education",
       "target": [
         {
-          "target": "dmg",
+          "target": "default",
           "arch": [
             "x64",
             "arm64"
