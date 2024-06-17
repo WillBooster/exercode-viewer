@@ -2,20 +2,52 @@
   "name": "@exercode/viewer",
   "version": "0.0.0-semantically-released",
   "description": "A viewer for scoring learner's submissions on Exercode.",
+  "repository": "github:WillBoosterLab/exercode-viewer",
   "license": "UNLICENSED",
+  "author": "WillBooster Inc.",
   "type": "commonjs",
   "main": "src/main.cjs",
   "scripts": {
     "cleanup": "yarn format && yarn lint-fix",
     "format": "sort-package-json && yarn prettify",
+    "postinstall": "husky || true",
     "lint": "eslint --color \"./{scripts,src,tests}/**/*.{cjs,cts,js,jsx,mjs,mts,ts,tsx}\"",
     "lint-fix": "yarn lint --fix",
-    "postinstall": "electron-builder install-app-deps" ,
+    "prepack": "pinst --disable",
+    "postpack": "pinst --enable",
+    "prepare": "husky || true",
     "prettify": "prettier --cache --color --write \"**/{.*/,}*.{cjs,css,cts,htm,html,js,json,json5,jsonc,jsx,md,mjs,mts,scss,ts,tsx,vue,yaml,yml}\" \"!**/test-fixtures/**\"",
     "release": "electron-builder",
     "release-test": "electron-builder --dir",
     "start": "electron ."
   },
+  "prettier": "@willbooster/prettier-config",
+  "dependencies": {
+    "fflate": "0.8.2"
+  },
+  "devDependencies": {
+    "@types/eslint": "8.56.10",
+    "@types/micromatch": "4.0.7",
+    "@willbooster/eslint-config-js": "10.3.0",
+    "@willbooster/prettier-config": "9.1.2",
+    "conventional-changelog-conventionalcommits": "8.0.0",
+    "electron": "31.0.1",
+    "electron-builder": "^24.13.3",
+    "eslint": "8.57.0",
+    "eslint-config-prettier": "9.1.0",
+    "eslint-plugin-import": "2.29.1",
+    "eslint-plugin-sort-class-members": "1.20.0",
+    "eslint-plugin-sort-destructure-keys": "2.0.0",
+    "eslint-plugin-unicorn": "54.0.0",
+    "husky": "9.0.11",
+    "lint-staged": "15.2.7",
+    "micromatch": "4.0.7",
+    "pinst": "3.0.0",
+    "prettier": "3.3.2",
+    "semantic-release": "24.0.0",
+    "sort-package-json": "2.10.0"
+  },
+  "packageManager": "yarn@4.3.0",
   "build": {
     "appId": "com.willbooster.exercode-viewer",
     "productName": "ExercodeViewer",
@@ -42,28 +74,5 @@
         }
       ]
     }
-  },
-  "prettier": "@willbooster/prettier-config",
-  "dependencies": {
-    "fflate": "0.8.2"
-  },
-  "devDependencies": {
-    "@types/eslint": "8.56.10",
-    "@types/micromatch": "4.0.7",
-    "@willbooster/eslint-config-js": "10.3.0",
-    "@willbooster/prettier-config": "9.1.2",
-    "electron": "31.0.1",
-    "electron-builder": "^24.13.3",
-    "eslint": "8.57.0",
-    "eslint-config-prettier": "9.1.0",
-    "eslint-plugin-import": "2.29.1",
-    "eslint-plugin-sort-class-members": "1.20.0",
-    "eslint-plugin-sort-destructure-keys": "2.0.0",
-    "eslint-plugin-unicorn": "54.0.0",
-    "lint-staged": "15.2.7",
-    "micromatch": "4.0.7",
-    "prettier": "3.3.2",
-    "sort-package-json": "2.10.0"
-  },
-  "packageManager": "yarn@4.3.0"
+  }
 }
