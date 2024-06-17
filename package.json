@@ -8,7 +8,7 @@
   "type": "commonjs",
   "main": "src/main.cjs",
   "scripts": {
-    "build": "electron-builder --publish never --mac --win",
+    "build": "electron-builder --mac --win --publish never",
     "cleanup": "yarn format && yarn lint-fix",
     "format": "sort-package-json && yarn prettify",
     "postinstall": "husky || true",

@@ -18,7 +18,7 @@ jobs:
   test:
     uses: WillBoosterLab/reusable-workflows/.github/workflows/test.yml@main
     with:
-      github_hosted_runner: true
+      runs_on: '["macos-latest"]'
     secrets:
       GH_TOKEN: ${{ secrets.PUBLIC_GH_BOT_PAT }}
       NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
