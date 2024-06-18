@@ -5,11 +5,17 @@
 
 :100: A viewer for scoring learner's submissions on Exercode.
 
+## Supported OS
+
+- macOS
+- Windows
+
 ## How to Run
 
 1. Install Node.js (https://nodejs.org/)
-2. `npm install`
-3. `npm run start`
+2. Clone this repo and change your working directory to `exercode-viewer`
+3. `npm install`
+4. `npm run start`
 
 ## How to Develop
 
