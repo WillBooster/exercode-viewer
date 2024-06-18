@@ -5,6 +5,6 @@ on:
       - labeled
 jobs:
   notify-ready:
-    uses: WillBoosterLab/reusable-workflows/.github/workflows/notify-ready.yml@main
+    uses: WillBooster/reusable-workflows/.github/workflows/notify-ready.yml@main
     secrets:
       DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL_FOR_READY }}

@@ -8,7 +8,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   release:
-    uses: WillBoosterLab/reusable-workflows/.github/workflows/release.yml@main
+    uses: WillBooster/reusable-workflows/.github/workflows/release.yml@main
     with:
       runs_on: '["macos-latest"]'
       skip_build: true

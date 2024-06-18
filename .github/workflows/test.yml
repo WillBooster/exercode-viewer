@@ -16,7 +16,7 @@ concurrency:
   cancel-in-progress: true
 jobs:
   test:
-    uses: WillBoosterLab/reusable-workflows/.github/workflows/test.yml@main
+    uses: WillBooster/reusable-workflows/.github/workflows/test.yml@main
     with:
       runs_on: '["macos-latest"]'
     secrets:

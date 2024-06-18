@@ -5,7 +5,7 @@ on:
       - labeled
 jobs:
   add-issue-to-project:
-    uses: WillBoosterLab/reusable-workflows/.github/workflows/add-issue-to-project.yml@main
+    uses: WillBooster/reusable-workflows/.github/workflows/add-issue-to-project.yml@main
     secrets:
       GH_PROJECT_URL: ${{ secrets.GH_PROJECT_URL }}
       GH_TOKEN: ${{ secrets.PUBLIC_GH_BOT_PAT }}

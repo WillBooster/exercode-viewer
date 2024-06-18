@@ -5,7 +5,7 @@ on:
     - cron: 30 13 * * *
 jobs:
   wbfy:
-    uses: WillBoosterLab/reusable-workflows/.github/workflows/wbfy.yml@main
+    uses: WillBooster/reusable-workflows/.github/workflows/wbfy.yml@main
     with:
       github_hosted_runner: true
     secrets:

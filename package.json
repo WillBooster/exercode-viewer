@@ -2,7 +2,7 @@
   "name": "@exercode/viewer",
   "version": "0.0.0-semantically-released",
   "description": "A viewer for scoring learner's submissions on Exercode.",
-  "repository": "github:WillBoosterLab/exercode-viewer",
+  "repository": "github:WillBooster/exercode-viewer",
   "license": "UNLICENSED",
   "author": "WillBooster Inc.",
   "type": "commonjs",

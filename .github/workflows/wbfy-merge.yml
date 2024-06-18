@@ -5,7 +5,7 @@ on:
     - cron: 56 17 * * *
 jobs:
   wbfy-merge:
-    uses: WillBoosterLab/reusable-workflows/.github/workflows/wbfy-merge.yml@main
+    uses: WillBooster/reusable-workflows/.github/workflows/wbfy-merge.yml@main
     with:
       github_hosted_runner: true
     secrets:

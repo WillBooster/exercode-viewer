@@ -7,4 +7,4 @@ on:
       - synchronize
 jobs:
   semantic-pr:
-    uses: WillBoosterLab/reusable-workflows/.github/workflows/semantic-pr.yml@main
+    uses: WillBooster/reusable-workflows/.github/workflows/semantic-pr.yml@main
