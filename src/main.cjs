@@ -74,12 +74,14 @@ app.whenReady().then(() => {
 
     let command;
     let args;
+    let shell = false;
     executionCommand = executionCommand.split(' && ').slice(2).join(' && ');
     switch (os.platform()) {
       case 'win32': {
         // Windows
         command = 'start';
-        args = ['cmd.exe', '/K', `cd ${dirPath} && ${executionCommand}`];
+        args = ['cmd', '/K', `"cd ${dirPath} && ${executionCommand}"`];
+        shell = true;
         break;
       }
       case 'darwin': {
@@ -100,7 +102,7 @@ app.whenReady().then(() => {
         break;
       }
     }
-    child_process.spawn(command, args, { shell: false });
+    child_process.spawn(command, args, { shell });
   });
   createWindow();
 });
