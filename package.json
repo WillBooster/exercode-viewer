@@ -31,7 +31,7 @@
     "@willbooster/eslint-config-js": "10.3.0",
     "@willbooster/prettier-config": "9.1.2",
     "conventional-changelog-conventionalcommits": "8.0.0",
-    "electron": "31.7.0",
+    "electron": "32.2.0",
     "electron-builder": "24.13.3",
     "eslint": "8.57.0",
     "eslint-config-prettier": "9.1.0",
