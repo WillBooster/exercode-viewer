@@ -174,7 +174,7 @@ __metadata:
     "@willbooster/eslint-config-js": "npm:10.3.1"
     "@willbooster/prettier-config": "npm:9.1.3"
     conventional-changelog-conventionalcommits: "npm:8.0.0"
-    electron: "npm:31.7.3"
+    electron: "npm:31.7.5"
     electron-builder: "npm:24.13.3"
     eslint: "npm:8.57.0"
     eslint-config-prettier: "npm:9.1.0"
@@ -2577,16 +2577,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"electron@npm:31.7.3":
-  version: 31.7.3
-  resolution: "electron@npm:31.7.3"
+"electron@npm:31.7.5":
+  version: 31.7.5
+  resolution: "electron@npm:31.7.5"
   dependencies:
     "@electron/get": "npm:^2.0.0"
     "@types/node": "npm:^20.9.0"
     extract-zip: "npm:^2.0.1"
   bin:
     electron: cli.js
-  checksum: 10c0/e05129f622c4b372807dd5bcaac56666bbb02212e5d14482c3920af9881014f817192c0feafb3227b167784acc2f8210a4f115e5896cff288bf4db9787ad54da
+  checksum: 10c0/0aa4a618c5d715156253c49725fd4ece37de635dd841ee30bdf5e2acb16da19089e00f5f370762751b45d00c35c7744cfbe79c59295fbc105d639e1c7d6dcdb8
   languageName: node
   linkType: hard
 
