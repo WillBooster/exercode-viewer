@@ -38,16 +38,16 @@
     "eslint-plugin-import": "2.31.0",
     "eslint-plugin-sort-class-members": "1.21.0",
     "eslint-plugin-sort-destructure-keys": "2.0.0",
-    "eslint-plugin-unicorn": "56.0.0",
-    "husky": "9.1.6",
+    "eslint-plugin-unicorn": "56.0.1",
+    "husky": "9.1.7",
     "lint-staged": "15.2.10",
     "micromatch": "4.0.8",
     "pinst": "3.0.0",
     "prettier": "3.3.3",
     "semantic-release": "24.2.0",
-    "sort-package-json": "2.10.1"
+    "sort-package-json": "2.11.0"
   },
-  "packageManager": "yarn@4.5.1",
+  "packageManager": "yarn@4.5.2",
   "build": {
     "appId": "com.willbooster.exercode-viewer",
     "productName": "ExercodeViewer",
