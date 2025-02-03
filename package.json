@@ -25,7 +25,7 @@
     "fflate": "0.8.2"
   },
   "devDependencies": {
-    "@semantic-release/exec": "6.0.3",
+    "@semantic-release/exec": "7.0.3",
     "@types/eslint": "8.56.11",
     "@types/micromatch": "4.0.9",
     "@willbooster/eslint-config-js": "10.3.1",
