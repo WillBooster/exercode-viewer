@@ -34,7 +34,7 @@
     "electron": "31.7.7",
     "electron-builder": "24.13.3",
     "eslint": "8.57.0",
-    "eslint-config-prettier": "10.1.5",
+    "eslint-config-prettier": "10.1.8",
     "eslint-plugin-import": "2.32.0",
     "eslint-plugin-sort-class-members": "1.21.0",
     "eslint-plugin-sort-destructure-keys": "2.0.0",
