@@ -47,7 +47,7 @@
     "semantic-release": "24.2.7",
     "sort-package-json": "2.15.1"
   },
-  "packageManager": "yarn@4.9.3",
+  "packageManager": "yarn@4.9.4",
   "build": {
     "appId": "com.willbooster.exercode-viewer",
     "productName": "ExercodeViewer",
