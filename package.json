@@ -25,7 +25,7 @@
     "fflate": "0.8.2"
   },
   "devDependencies": {
-    "@semantic-release/exec": "6.0.3",
+    "@semantic-release/exec": "7.1.0",
     "@types/eslint": "8.56.11",
     "@types/micromatch": "4.0.10",
     "@willbooster/eslint-config-js": "10.3.1",
@@ -44,7 +44,7 @@
     "micromatch": "4.0.8",
     "pinst": "3.0.0",
     "prettier": "3.6.2",
-    "semantic-release": "24.2.9",
+    "semantic-release": "25.0.2",
     "sort-package-json": "2.15.1"
   },
   "packageManager": "yarn@4.11.0",
